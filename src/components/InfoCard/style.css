@@ -1,0 +1,54 @@
+.userInfo-card {
+  background-color: #0918230d;
+  border-radius: 16px;
+  box-shadow: 2px 2px 4px #0e0a0e80, -2px -2px 4px #29517080,
+    inset 0px 1px 250px #0510181a;
+  /* height: 100px; */
+  width: 322px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.userInfo-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.userInfo-icon {
+  border-radius: 10px;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-icon {
+  background: linear-gradient(0deg, #3f46f7 0%, #3f46f7 100%),
+    radial-gradient(
+      84.47% 112.05% at 12.09% 8.37%,
+      rgba(37, 77, 105, 0.2) 8.99%,
+      rgba(37, 77, 105, 0) 100%
+    ),
+    rgba(9, 24, 35, 0.05);
+}
+
+.second-icon {
+    background: linear-gradient(0deg, #FE8743 0%, #FE8743 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.third-icon {
+    background: linear-gradient(0deg, #00C543 0%, #00C543 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.fourth-icon {
+    background: linear-gradient(0deg, #8923D9 0%, #8923D9 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.userInfo-type {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

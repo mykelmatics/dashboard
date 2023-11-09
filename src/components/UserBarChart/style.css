@@ -1,0 +1,13 @@
+.userBarChart-container {
+  background: #0918230d;
+  border-radius: 16px;
+  box-shadow: 2px 2px 4px #0e0a0e80, -2px -2px 4px #29517080,
+    inset 0px 1px 250px #0510181a;
+  /* height: 460px; */
+  /* border: 2px solid red; */
+  /* height: 100%; */
+  width: 100%;
+}
+.userBarChart-container > div {
+    height: 100%;
+}

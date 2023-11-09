@@ -1,0 +1,17 @@
+.userInfo-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.first-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.second-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}

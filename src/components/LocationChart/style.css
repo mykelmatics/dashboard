@@ -1,0 +1,13 @@
+/* style.css */
+
+.location-chart {
+  border-radius: 16px;
+  background: rgba(9, 24, 35, 0.05);
+  box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.5),
+    -2px -2px 4px 0px rgba(41, 82, 113, 0.5),
+    0px 1px 250px 0px rgba(5, 16, 24, 0.1) inset;
+  width: 435px; /* Full width */
+  padding-top: 20px;
+  position: relative;
+}
+
